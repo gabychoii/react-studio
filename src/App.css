@@ -1,9 +1,91 @@
-/* Add styling for your page here */
-
 .App {
-
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #cdb4db;
+    color:beige;
 }
 
-.BakeryItem {
+.menu{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+
+h1, h2 {
+    font-family: Recoleta, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.menuBody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+.cart {
+    h2{
+        color: antiquewhite;
+    }
+    width: 50%;
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+  }
   
+.menuItemCard {
+    width: calc(50% - 16px); 
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #f9f9f9;
+    box-sizing: border-box; 
+    color: black;
+}
+
+.menuItemCard img {
+    max-width: 80%;
+}
+
+.menuItemCard {
+    width: calc(50% - 16px); 
+    margin: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #f9f9f9;
+    box-sizing: border-box; 
+}
+
+.itemImage {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 4px;
+}
+
+#addToCartButton {
+    background-color: #9c89b8;
+    font-family:  Recoleta, serif;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    font-weight: 800;
+}
+
+#price {
+    font-family:  Recoleta, serif;
+    font-weight: bold;
+    color: black;
+}
+
+#cartItemList {
+    font-family:  Recoleta, serif;
+    color: black;
+    font-weight: 400;
 }
